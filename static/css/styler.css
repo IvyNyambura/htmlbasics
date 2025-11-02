@@ -1,5 +1,63 @@
-ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 39px;
+ul {
+  list-style-type: none;
+
+  padding: 0;
+
+  margin: 0;
+
+  background-color: #078807;
+
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 15px;
+
+  display: block;
+
+  text-decoration: none;
+
+  color: white;
+
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.fruits{
+    background-color: #ff9999;
+    border: 3px black;
+    text-align: center;
+    color: cornsilk;
+    padding:20px ;
+    margin: 20px;
+    font-size: 25px;
+}
+.cars{
+    background-color: #99ccff;
+    border: 3px black;
+    text-align: center;
+    color: cornsilk;
+    padding:20px ;
+    margin: 20px;
+    font-size: 25px;
+}
+#computers{
+    background-color: #cc99ff;
+    border: 3px black;
+    text-align: center;
+    color: cornsilk;
+    padding:20px ;
+    margin: 20px;
+    font-size: 25px;
 }
